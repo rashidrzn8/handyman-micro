@@ -12,4 +12,20 @@ public class OrderDTO {
     private int itemId;
     private String orderDate;
     private int amount;
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getItemId() {
+        return itemId;
+    }
+
+    public String getOrderDate() {
+        return orderDate;
+    }
 }
