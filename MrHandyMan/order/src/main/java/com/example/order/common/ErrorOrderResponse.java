@@ -4,7 +4,7 @@ import com.example.order.orderdto.OrderDTO;
 import lombok.Getter;
 
 @Getter
-public class ErrorOrderResponse implements OrderResponse{
+public class ErrorOrderResponse implements OrderResponse {
     private final String errorMessage;
 
     public ErrorOrderResponse(String errorMessage) {
